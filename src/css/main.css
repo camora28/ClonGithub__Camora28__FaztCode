@@ -3,6 +3,7 @@ body {
 }
 nav {
     display: flex;
+    justify-content: space-between;
     background: #212529 ;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
     color: white;
@@ -28,6 +29,7 @@ nav a {
 }
 
 nav #formulario {
-    display: flex;
+    display: -moz-inline-grid;
     align-content: space-between ;
+
 }
